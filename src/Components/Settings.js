@@ -18,7 +18,7 @@ function Settings() {
       .then((res) => {
         alert(res.data.message);
         if(res.data.message === 'Application Created Successfully')
-        navigator('https://varun-opezee.netlify.app/')
+        navigator('/')
       })
       .catch((err) => console.log(err));
   };
@@ -37,7 +37,7 @@ function Settings() {
       {/* Left Column */}
       <div className="col-md-4 col-sm-2 left-corner">
         <div className="ms-2 mt-2">
-          <a href="https://varun-opezee.netlify.app/">
+          <a href="/">
             <img src={home} alt="home" />
           </a>
         </div>
@@ -55,7 +55,7 @@ function Settings() {
       <div className="col-md-8 right-corner">
         {/* <h1 className="text-light h4 d-inline">Settings</h1> */}
         <a
-          href="https://varun-opezee.netlify.app/"
+          href="/"
           className="text-decoration-none d-flex justify-content-end mt-2 me-4"
         >
           <img src={cross} alt="cross-mark" />

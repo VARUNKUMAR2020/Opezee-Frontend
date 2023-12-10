@@ -25,7 +25,7 @@ function Home() {
       {/* Left Column */}
       <div className="col-md-4 col-sm-2 left-corner">
         <div className="ms-2 mt-2">
-          <a href="https://varun-opezee.netlify.app/settings">
+          <a href="/settings">
             <img src={setting} alt="setting" />
           </a>
         </div>
