@@ -11,10 +11,10 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
    <Routes>
-    <Route path="/" element={<Home/>} />
-    <Route path="/settings" element={<Settings/>} />
-    <Route path="/camera" element={<Camera/>}/>
-    <Route path='/player' element={<Player/>}/>
+    <Route path="https://varun-opezee.netlify.app/" element={<Home/>} />
+    <Route path="https://varun-opezee.netlify.app/settings" element={<Settings/>} />
+    <Route path="https://varun-opezee.netlify.app/camera" element={<Camera/>}/>
+    <Route path='https://varun-opezee.netlify.app/player' element={<Player/>}/>
     </Routes> 
   </BrowserRouter>
 );
