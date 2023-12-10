@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100&display=swap');
+
+body{
+  overflow-x: hidden;
+}
+
+.company{
+  font-family: 'Kalnia', serif;
+  font-size: 90px;
+}
+
+.main{
+  height: 100vh;
+}
+
+.left-corner{
+  background-color:#191d38ff;
+}
+
+.right-corner{
+  background-image: url(../src/assets/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app-image{
+  height: 60px;
+  border-radius: 30px;
+}
+
+.application-input{
+  background-color: #4b5063ff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.webCam{
+  background-color: black;
+}
+
+.media-player{
+  background-image: url(../src/assets/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
